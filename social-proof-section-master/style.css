@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: hsl(300, 43%, 22%);
+    --color2: hsl(333, 80%, 67%);
+    --color3: hsl(303, 10%, 53%);
+    --color4: hsl(300, 24%, 96%);
+    --border-radius: 10px;
+    --width: 320px;
+    --height: 230px;
+    --image_width: 40px;
+    --image_height: 40px;
+    --image_radius: 50%;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    width: 1020px;
+    height: 550px;
+}
+
+.h1_10k{
+    color: var(--color1);
+    line-height: 40px;
+    font-size: 45px;
+}
+
+.p_text{
+    color: var(--color3);
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.bottom_texts{
+    display: flex;
+}
+
+.text1{
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background-color: var(--color1);
+    margin-top: 60px;
+}
+
+.text2{
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background-color: var(--color1);
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.text3{
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background-color: var(--color1);
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.image1{
+    width: var(--image_width);
+    height: var(--image_height);
+    border-radius: var(--image_radius);
+}
+
+.image_div1, .image_div2, .image_div3{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.colton_smith, .irene_roberts, .anne_wallace{
+    margin-left: 25px;
+    color: white;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+span{
+    color: var(--color2);
+    font-weight: 500;
+}
+
+.colton_smith_text, .irene_smith_text, .anne_smith_text{
+    color: white;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header_div{
+    width: 1020px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text_div, .right_div{
+    width: 510px;
+    height: 240px;
+}
+
+.review, .report_guru, .bestTech{
+    width: 420px;
+    height: 50px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    font-weight: 700;
+}
+
+.review{
+    background-color: var(--color4);
+    margin-top: 20px;
+}
+
+.report_guru{
+    background-color: var(--color4);
+    margin-top: 20px;
+    margin-left: 45px;
+    padding-left: 20px;
+}
+
+.bestTech{
+    background-color: var(--color4);
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.svg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    height: 50px;
+    width: 130px;
+}
+
+.svg1, .svg2{
+    position: absolute;
+}
+
+.svg1{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.svg2{
+    margin-top: -280px;
+    margin-right: 920px;
+}
+
+/* რესპონსივი არვიცი და რავქნა */
